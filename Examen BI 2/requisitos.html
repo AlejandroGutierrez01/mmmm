@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 2</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <form action="" id="requisitosForm">
+        <h2>Requisitos</h2>
+        <label for="nombres">Nombres y Apellidos:</label>
+        <input type="text" id="nombres" placeholder="Ingrese sus nombres y apellidos"><br>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" placeholder="Ingrese su edad"><br>
+
+        <label for="altura">Altura:</label>
+        <input type="number" id="altura" step="0.01" placeholder="Ingrese su altura en metros"><br>
+
+        <label for="califi">Calificación:</label>
+        <input type="number" id="califi" placeholder="Ingrese su calificación"><br>
+
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" placeholder="Ingrese su correo electrónico"><br><br>
+
+        <button type="button" onclick="verificarFormulario()">Verificar</button><br>
+        <button type="button" onclick="borrarFormulario()">Borrar Formulario</button>
+    </form>
+    <script src="requisitos.js"></script>
+</body>
+
+
+</html>
